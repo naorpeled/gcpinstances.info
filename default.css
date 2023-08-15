@@ -2,6 +2,10 @@
   font-family: "Roboto";
 }
 
+.dataTables_filter {
+    display: none;
+}
+
 body {
   overflow-y: hidden;
 }

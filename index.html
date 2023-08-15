@@ -194,19 +194,22 @@
             </div>
 
             <div class="right-selectors">
-              <div id="main-search" class="main-search selectors"></div>
+              <input id="table-search-box" aria-label="Search" placeholder="Search..." type="search" class="form-control search" />
 
               <div class="selectors">
                 <button
                   class="btn-compare right-buttons"
                   data-text-on="End Compare"
                   data-text-off="Compare"
+                  disabled
                 >
                   Compare
                 </button>
               </div>
 
-              <div id="csv" class="selectors"></div>
+              <button id="csv" class="dt-button buttons-csv right-buttons">
+                Export to CSV
+              </button>
             </div>
           </div>
         </div>
